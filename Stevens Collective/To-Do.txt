@@ -1,0 +1,10 @@
+To Do List:
+-----------
+
+Navbar:
+[]Align text right
+[]Define link attributes
+[]Make placeholder for logo
+
+Banner:
+[]Try with same padding as below

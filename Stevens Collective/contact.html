@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <title>Stevens Collective</title>
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Poiret+One&family=Yeseva+One&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <link rel="shortcut icon" type="image/png" href="images/favicon.png">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://kit.fontawesome.com/0d6342e3a0.js" crossorigin="anonymous"></script>
+  </head>
+  <body>
+    <div class="wrapper">
+      <div class="logoContainer">
+        <a href="index.html"><img src="images\logo.png" alt="Stevens Collective Logo"></a>  
+      </div>
+      <nav class="topNav">
+        <ul>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="investment.html">Investment</a></li>
+          <li><a href="collections.html">Collections</a></li>
+          <li><a href="about.html">About</a></li>
+          <li><a href="contact.html">Contact</a></li>
+        </ul>
+      </nav>
+      <header>
+        <h1 class="pageHeading">Contact Us</h1>
+      </header>
+      <main>
+        <section class="contactForm">
+          <h3>Want More Information?</h3>
+          <p class="subtext">* Indicates Required Field</p>
+          <form class="mainContact" action="received.html" method="get">
+
+              <label for="firstName">First Name:*
+              </label>
+              <input type="text" name="firstName" required="required" id="firstName" placeholder="Your first name (Required)">
+
+            <label for="lastName">Last Name:*
+            </label><input type="text" name="lastName" required="required" id="lastName" placeholder="Your last name (Required)">
+
+            <label for="email">Email:*
+            </label><input type="email" name="email" required="required" id="email" placeholder="youremail@domain.com (Required)">
+
+            <label for="phoneNumber">Phone Number:
+            </label><input type="tel" name="phoneNumber" id="phoneNumber" placeholder="555-555-5555">
+
+            <label for="areaOfInterest">Area of Interest:*
+            </label><select class="areaOfInterest" required="required" id="areaOfInterest">
+              <option selected="selected">Select an Area of Interest (Required)</option>
+              <option value="maternity">Maternity</option>
+              <option value="newborn">Newborn</option>
+              <option value="birth">Birth</option>
+              <option value="multiple">Multiple Areas of Interest</option>
+            </select>
+
+            <label for="comments">Additonal Comments/Questions:
+            </label><textarea name="comments" rows="3" cols="100"></textarea>
+            <input type="submit" class="cta" value="Submit">
+          </form>
+        </section>
+        <section class="altContact">
+          <h3>Additional Ways to Contact</h3>
+          <div class="altCardGallery">
+            <div class="altIconCard">
+              <a href="mailto:dlstevens.web1600@gmail.com">
+                <i class="fas fa-envelope"></i>
+                <p>Email</p>
+              </a>
+            </div>
+            <div class="altIconCard">
+              <a href="tel:8652686719">
+                <i class="fas fa-phone-alt"></i>
+                <p>Call</p>
+              </a>
+            </div>
+            <div class="altIconCard">
+              <a href="sms:8652686719">
+                <i class="fas fa-comment-dots"></i>
+                <p>Text</p>
+              </a>
+            </div>
+          </div>
+        </section>
+      </main>
+      <footer>
+        <div class="footerFlex">
+          <nav class="footerSiteMap">
+            <ul>
+              <li><a href="index.html">Home</a></li>
+              <li class="seperator">|</li>
+              <li><a href="investment.html">Investment</a></li>
+              <li class="seperator">|</li>
+              <li><a href="collections.html">Collections</a></li>
+              <li class="seperator">|</li>
+              <li><a href="about.html">About</a></li>
+              <li class="seperator">|</li>
+              <li><a href="contact.html">Contact</a></li>
+            </ul>
+          </nav>
+          <div class="socialMediaIcon">
+              <a href="https://www.instagram.com/stevenscollectiveco/"><i class="fab fa-instagram"></i></a>
+              <a href="mailto:dlstevens.web1600@gmail.com"><i class="far fa-envelope"></i></a>
+          </div>
+        </div>
+        <p>&copy; Stevens Collective 2021</p>
+      </footer>
+    </div>
+  </body>
+</html>
